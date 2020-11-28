@@ -1,0 +1,67 @@
+.social-brand {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  fill: $title-color;
+  transition: fill 0.3s ease;
+  &:hover {
+    fill: $main-color;
+  }
+}
+
+.cards-container {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  box-shadow: 0px 2px 20px $container-shadow;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $border-color;
+  
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+
+  &__image {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  &__tittle {
+    padding: 1rem;
+  }
+  &__description {
+    padding: 0 1rem;
+    color: $text-color;
+  }
+
+  &__btn {
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 1rem;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+  }
+  &:hover {
+    transform: scale(1.02);
+  }
+  &:hover &__btn {
+    background: #fff;
+    color: #181818;
+  }
+}

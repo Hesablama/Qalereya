@@ -1,0 +1,41 @@
+ul.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    .pagination__links {
+      padding: 3px 5px;
+      margin: 3px;
+      border: 1px solid $main-color;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      &:hover{
+        background: $main-color;
+        a{color: #ffffff;}
+      }
+    }
+    .angle {
+      margin: 0 5px;
+      padding: 0 5px;
+      border: 1px solid $main-color;
+      border-radius: 90px;
+      cursor: pointer;
+      transition: all 0.5s ease;
+      &:hover{
+        background: $main-color;
+        a{color: #ffffff;}
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+    .link__activate {
+      a {
+        color: #fff;
+      }
+  
+      background: $main-color;
+    }
+  
+  }
