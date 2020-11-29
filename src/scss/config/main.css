@@ -75,10 +75,10 @@ header {
           justify-content: space-between;
   background: #2e1e47;
   cursor: pointer;
-  -webkit-transition: -webkit-transform 200ms ease-in;
-  transition: -webkit-transform 200ms ease-in;
-  transition: transform 200ms ease-in;
-  transition: transform 200ms ease-in, -webkit-transform 200ms ease-in;
+  -webkit-transition: -webkit-transform 200ms ease-in !important;
+  transition: -webkit-transform 200ms ease-in !important;
+  transition: transform 200ms ease-in !important;
+  transition: transform 200ms ease-in, -webkit-transform 200ms ease-in !important;
 }
 
 .card__image {
@@ -111,7 +111,7 @@ header {
   cursor: pointer;
   border-radius: 0.2rem;
   -webkit-transition: background 200ms ease-in, color 200ms ease-in;
-  transition: background 200ms ease-in, color 200ms ease-in;
+  transition: background 200ms ease-in, color 200ms ease-in ;
 }
 
 .card:hover {
@@ -124,7 +124,7 @@ header {
   color: #181818;
 }
 
-ul.pagination {
+.pagination {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,7 +136,7 @@ ul.pagination {
           align-items: center;
 }
 
-ul.pagination .pagination__links {
+.pagination .pagination__links {
   padding: 3px 5px;
   margin: 3px;
   border: 1px solid #7d27fd;
@@ -146,15 +146,15 @@ ul.pagination .pagination__links {
   transition: all 0.5s ease;
 }
 
-ul.pagination .pagination__links:hover {
+.pagination .pagination__links:hover {
   background: #7d27fd;
 }
 
-ul.pagination .pagination__links:hover a {
+.pagination .pagination__links:hover a {
   color: #ffffff;
 }
 
-ul.pagination .angle {
+.pagination .angle {
   margin: 0 5px;
   padding: 0 5px;
   border: 1px solid #7d27fd;
@@ -164,23 +164,23 @@ ul.pagination .angle {
   transition: all 0.5s ease;
 }
 
-ul.pagination .angle:hover {
+.pagination .angle:hover {
   background: #7d27fd;
 }
 
-ul.pagination .angle:hover a {
+.pagination .angle:hover a {
   color: #ffffff;
 }
 
-ul.pagination a {
+.pagination a {
   text-decoration: none;
 }
 
-ul.pagination .link__activate {
+.pagination .link__activate {
   background: #7d27fd;
 }
 
-ul.pagination .link__activate a {
+.pagination .link__activate a {
   color: #fff;
 }
 
