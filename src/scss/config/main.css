@@ -33,6 +33,11 @@ header {
   color: white;
 }
 
+.link-n {
+  text-decoration: none;
+  color: #000000de;
+}
+
 .social-brand {
   height: 30px;
   width: 30px;
