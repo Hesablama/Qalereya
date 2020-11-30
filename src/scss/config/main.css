@@ -75,10 +75,10 @@ header {
           justify-content: space-between;
   background: #2e1e47;
   cursor: pointer;
-  -webkit-transition: -webkit-transform 200ms ease-in ;
-  transition: -webkit-transform 200ms ease-in ;
-  transition: transform 200ms ease-in ;
-  transition: transform 200ms ease-in, -webkit-transform 200ms ease-in ;
+  -webkit-transition: -webkit-transform 200ms ease-in;
+  transition: -webkit-transform 200ms ease-in;
+  transition: transform 200ms ease-in;
+  transition: transform 200ms ease-in, -webkit-transform 200ms ease-in;
 }
 
 .card__image {
@@ -111,7 +111,7 @@ header {
   cursor: pointer;
   border-radius: 0.2rem;
   -webkit-transition: background 200ms ease-in, color 200ms ease-in;
-  transition: background 200ms ease-in, color 200ms ease-in ;
+  transition: background 200ms ease-in, color 200ms ease-in;
 }
 
 .card:hover {
@@ -223,5 +223,11 @@ header {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.tittle {
+  background: none;
+  font-size: 2rem;
+  color: #efe5fd;
 }
 /*# sourceMappingURL=main.css.map */
