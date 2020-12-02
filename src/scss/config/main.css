@@ -1,6 +1,6 @@
 body {
-  background: #271a3b;
-  color: #c8cdd0;
+  background: #ffffff;
+  color: #1b1b1b;
   font-family: "Lato", sans-serif;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -13,19 +13,15 @@ h3,
 h4,
 h5,
 h6 {
-  color: #efe5fd;
+  color: #2e2e2e;
 }
 
 a {
-  color: #7d27fd;
+  color: #39008f;
 }
 
 li {
   list-style: none;
-}
-
-header {
-  background: #2e1e47;
 }
 
 .demo-layout-transparent .mdl-layout__header,
@@ -38,17 +34,13 @@ header {
   color: #000000de;
 }
 
-.social-brand {
-  height: 30px;
-  width: 30px;
-  margin-top: 10px;
-  fill: #efe5fd;
-  -webkit-transition: fill 0.3s ease;
-  transition: fill 0.3s ease;
-}
-
-.social-brand:hover {
-  fill: #7d27fd;
+@media (max-width: 720px) {
+  *:hover {
+    text-decoration: none;
+    background-color: none;
+    color: none;
+    fill: none;
+  }
 }
 
 .cards-container {
@@ -78,7 +70,7 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #2e1e47;
+  background: #e9dbff;
   cursor: pointer;
   -webkit-transition: -webkit-transform 200ms ease-in;
   transition: -webkit-transform 200ms ease-in;
@@ -99,7 +91,7 @@ header {
 
 .card__description {
   padding: 0 1rem;
-  color: #c8cdd0;
+  color: #1b1b1b;
 }
 
 .card__btn {
@@ -110,9 +102,9 @@ header {
   text-decoration: none;
   text-align: center;
   margin: 1rem;
-  border: 2px solid white;
+  border: 2px solid #39008f;
   background: transparent;
-  color: white;
+  color: #39008f;
   cursor: pointer;
   border-radius: 0.2rem;
   -webkit-transition: background 200ms ease-in, color 200ms ease-in;
@@ -125,8 +117,8 @@ header {
 }
 
 .card:hover .card__btn {
-  background: #fff;
-  color: #181818;
+  background: #39008f;
+  color: #ffffff;
 }
 
 .pagination {
@@ -144,7 +136,7 @@ header {
 .pagination .pagination__links {
   padding: 3px 5px;
   margin: 3px;
-  border: 1px solid #7d27fd;
+  border: 1px solid #39008f;
   border-radius: 50px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -152,7 +144,7 @@ header {
 }
 
 .pagination .pagination__links:hover {
-  background: #7d27fd;
+  background: #39008f;
 }
 
 .pagination .pagination__links:hover a {
@@ -162,7 +154,7 @@ header {
 .pagination .angle {
   margin: 0 5px;
   padding: 0 5px;
-  border: 1px solid #7d27fd;
+  border: 1px solid #39008f;
   border-radius: 90px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -170,7 +162,7 @@ header {
 }
 
 .pagination .angle:hover {
-  background: #7d27fd;
+  background: #39008f;
 }
 
 .pagination .angle:hover a {
@@ -182,17 +174,37 @@ header {
 }
 
 .pagination .link__activate {
-  background: #7d27fd;
+  background: #39008f;
 }
 
 .pagination .link__activate a {
   color: #fff;
 }
 
+.social-logo {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+}
+
 .footer-links {
   text-align: center;
   margin-top: 90px;
   margin-bottom: 50px;
+}
+
+.footer-links #facebook2 {
+  fill: #4267B2;
+}
+
+.footer-links #twitter2 {
+  fill: #00acee;
+}
+
+.footer-links #github2 {
+  fill: #211f1f;
 }
 
 .footer-links .social-links {
@@ -202,13 +214,13 @@ header {
 .line {
   width: 100%;
   height: 1px;
-  background: #7d27fd;
+  background: #39008f;
 }
 
 .footer {
   width: 100%;
   height: 85px;
-  background: #271a3b;
+  background: #ffffff;
 }
 
 .footer_links {
@@ -228,11 +240,5 @@ header {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-}
-
-.tittle {
-  background: none;
-  font-size: 2rem;
-  color: #efe5fd;
 }
 /*# sourceMappingURL=main.css.map */

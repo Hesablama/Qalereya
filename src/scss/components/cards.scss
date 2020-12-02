@@ -1,14 +1,4 @@
 
-.social-brand {
-  height: 30px;
-  width: 30px;
-  margin-top: 10px;
-  fill: $title-color;
-  transition: fill 0.3s ease;
-  &:hover {
-    fill: $main-color;
-  }
-}
 
 .cards-container {
   margin: 2rem;
@@ -25,7 +15,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: $border-color;
+  background:$container-color;
   
   cursor: pointer;
   transition: transform 200ms ease-in;
@@ -51,9 +41,9 @@
     text-decoration: none;
     text-align: center;
     margin: 1rem;
-    border: 2px solid white;
+    border: 2px solid $main-color;
     background: transparent;
-    color: white;
+    color: $main-color;
     cursor: pointer;
     border-radius: 0.2rem;
     transition: background 200ms ease-in, color 200ms ease-in ;
@@ -62,7 +52,7 @@
     transform: scale(1.02);
   }
   &:hover &__btn {
-    background: #fff;
-    color: #181818;
+    background:$main-color ;
+    color: #ffffff;
   }
 }
