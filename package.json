@@ -1,0 +1,23 @@
+{
+  "name": "qalereya",
+  "version": "1.0.0",
+  "description": "Qalereya node package",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hesablama/Qalereya.git"
+  },
+  "author": "Anibal Dams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hesablama/Qalereya/issues"
+  },
+  "homepage": "https://github.com/Hesablama/Qalereya#readme",
+  "dependencies": {
+    "sass": "^1.29.0"
+  }
+}

@@ -20,3 +20,7 @@ ScrollReveal().reveal("#twitter", { delay: 800 });
 ScrollReveal().reveal("#github", { delay: 1100 });
 ScrollReveal().reveal("#slack", { delay: 1300 });
 ScrollReveal().reveal(".legal-links", { delay: 900 });
+ScrollReveal().reveal("#paypal-card", { delay: 500 });
+ScrollReveal().reveal("#patreon-card", { delay: 600 });
+ScrollReveal().reveal("#opencollective-card", { delay: 800 });
+ScrollReveal().reveal("#collaborate-card", { delay: 1100 });

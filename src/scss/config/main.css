@@ -2,7 +2,6 @@ body {
   background: #ffffff;
   color: #1b1b1b;
   font-family: "Lato", sans-serif;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-size: 16px;
 }
@@ -42,58 +41,37 @@ li {
     fill: none;
   }
 }
-
 .cards-container {
   margin: 2rem;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(12rem, 16rem))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
   gap: 2rem;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .card {
   overflow: hidden;
-  -webkit-box-shadow: 0px 2px 20px none;
-          box-shadow: 0px 2px 20px none;
+  box-shadow: 0px 2px 20px none;
   border-radius: 0.2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   background: #e9dbff;
   cursor: pointer;
-  -webkit-transition: -webkit-transform 200ms ease-in;
-  transition: -webkit-transform 200ms ease-in;
   transition: transform 200ms ease-in;
-  transition: transform 200ms ease-in, -webkit-transform 200ms ease-in;
 }
-
 .card__image {
   height: 12rem;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .card__tittle {
   padding: 1rem;
 }
-
 .card__description {
   padding: 0 1rem;
   color: #1b1b1b;
 }
-
 .card__btn {
   padding: 1rem;
   font-family: inherit;
@@ -107,76 +85,55 @@ li {
   color: #39008f;
   cursor: pointer;
   border-radius: 0.2rem;
-  -webkit-transition: background 200ms ease-in, color 200ms ease-in;
   transition: background 200ms ease-in, color 200ms ease-in;
 }
-
 .card:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  transform: scale(1.02);
 }
-
 .card:hover .card__btn {
   background: #39008f;
   color: #ffffff;
 }
 
 .pagination {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .pagination .pagination__links {
   padding: 3px 5px;
   margin: 3px;
   border: 1px solid #39008f;
   border-radius: 50px;
   cursor: pointer;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
 .pagination .pagination__links:hover {
   background: #39008f;
 }
-
 .pagination .pagination__links:hover a {
   color: #ffffff;
 }
-
 .pagination .angle {
   margin: 0 5px;
   padding: 0 5px;
   border: 1px solid #39008f;
   border-radius: 90px;
   cursor: pointer;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
 .pagination .angle:hover {
   background: #39008f;
 }
-
 .pagination .angle:hover a {
   color: #ffffff;
 }
-
 .pagination a {
   text-decoration: none;
 }
-
 .pagination .link__activate {
   background: #39008f;
 }
-
 .pagination .link__activate a {
   color: #fff;
 }
@@ -185,8 +142,6 @@ li {
   height: 30px;
   width: 30px;
   margin-top: 10px;
-  -webkit-transition: fill 0.3s ease;
-  transition: fill 0.3s ease;
 }
 
 .footer-links {
@@ -194,19 +149,15 @@ li {
   margin-top: 90px;
   margin-bottom: 50px;
 }
-
 .footer-links #facebook2 {
   fill: #4267B2;
 }
-
 .footer-links #twitter2 {
   fill: #00acee;
 }
-
 .footer-links #github2 {
   fill: #211f1f;
 }
-
 .footer-links .social-links {
   margin: 0 5px;
 }
@@ -222,23 +173,17 @@ li {
   height: 85px;
   background: #ffffff;
 }
-
 .footer_links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .footer_links li {
   margin: 0 10px;
 }
 
 @media screen and (max-width: 726px) {
   .footer_links {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
