@@ -185,5 +185,40 @@ li {
     flex-direction: column;
   }
 }
+.title-center {
+  text-align: center;
+}
+
+#title {
+  margin-bottom: 5rem;
+}
+
+.donation-cards_container {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+  gap: 1rem;
+  justify-content: center;
+}
+
+.donation-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.donation-card__logo {
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 10px;
+}
+.donation-card__link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  color: #2e2e2e;
+}
 
 /*# sourceMappingURL=main.css.map */
