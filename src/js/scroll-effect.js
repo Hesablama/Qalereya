@@ -15,7 +15,6 @@ ScrollReveal().reveal("#angle-right", { delay: 1600 });
 ScrollReveal().reveal("#double-angle-right", { delay: 1700 });
 ScrollReveal().reveal("#footer-tittle", { delay: 600 });
 ScrollReveal().reveal("#opencollective", { delay: 500 });
-ScrollReveal().reveal("#facebook", { delay: 600 });
 ScrollReveal().reveal("#twitter", { delay: 800 });
 ScrollReveal().reveal("#github", { delay: 1100 });
 ScrollReveal().reveal("#slack", { delay: 1300 });

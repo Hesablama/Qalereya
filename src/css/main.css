@@ -147,9 +147,6 @@ li {
   margin-top: 90px;
   margin-bottom: 50px;
 }
-.footer-links #facebook2 {
-  fill: #4267B2;
-}
 .footer-links #twitter2 {
   fill: #00acee;
 }
@@ -205,6 +202,7 @@ li {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 2rem;
   cursor: pointer;
 }
 .donation-card__logo {
